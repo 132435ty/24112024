@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 const Padding(padding: EdgeInsets.only(left: 20)),
                 Transform.scale(
-                  scale: 2,
+                  scale: 50/24,
                   child: Checkbox(
                     value: _firstCheckboxValue,
                     onChanged: (bool? value) {
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 const Padding(padding: EdgeInsets.only(left: 274)),
                 Transform.scale(
-                  scale: 2,
+                  scale: 50/24,
                   child: Checkbox(
                     value: _secondCheckboxValue,
                     onChanged: (bool? value) {
